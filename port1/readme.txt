@@ -28,5 +28,6 @@
   1.12 并发编程
   感觉：同一时间处理多件任务
   1.13 java和internet
+  主要说明java跨平台特性
   1.14 总结
   OOP编程优势、java的使用范围和可替代方案或者说其他选择（Python,www.Python.org）
