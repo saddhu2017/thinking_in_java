@@ -30,3 +30,15 @@ public class HelloDate {
 2.10 总结
 第一章总体说明了面向对象的思维模式，第二章就java中语言特性以及基础说明做了介绍
 2.11 练习
+package part2;
+
+public class Exercise1 {
+    int i;
+    char ch;
+    public static void main(String[] args){
+        Exercise1 ex1 = new Exercise1();
+        System.out.println(ex1.i);
+        System.out.println(ex1.ch);
+    }
+}
+只给出一个示例模型，其他略
