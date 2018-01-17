@@ -11,3 +11,21 @@
   public和默认（一个.java文件最多只能有一个public类，此类必须与文件名相匹配）
   6.5 总结
   无论在什么样的关系之中，设立一些为各成员所遵守的界限始终是很重要的（跟社会关系类似，所以说面向对象模式是人类和自然社会的模拟）
+package part6;
+import static com.tech.Print.print;
+
+import org.jetbrains.annotations.Contract;
+
+public class Singleton {
+    private static Singleton singleton = new Singleton();
+    private Singleton(){}
+    @Contract(pure = true)
+    public static Singleton getSingleton(){
+        return singleton;
+    }
+    public static void main(String[] args){
+        print(getSingleton());
+        print(getSingleton());
+    }
+}
+访问控制权限引出的单例类；
